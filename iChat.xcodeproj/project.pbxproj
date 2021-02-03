@@ -16,6 +16,7 @@
 		4DAF3B4B25C9981100614C49 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B4A25C9981100614C49 /* SWRevealViewController.m */; };
 		4DAF3B5A25C9A41C00614C49 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B5925C9A41C00614C49 /* ChatVC.swift */; };
 		4DAF3B5E25C9A42B00614C49 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B5D25C9A42B00614C49 /* MenuVC.swift */; };
+		4DAF3B6125CA8C7400614C49 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B6025CA8C7400614C49 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4DAF3B4E25C9989D00614C49 /* iChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iChat-Bridging-Header.h"; sourceTree = "<group>"; };
 		4DAF3B5925C9A41C00614C49 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		4DAF3B5D25C9A42B00614C49 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		4DAF3B6025CA8C7400614C49 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		532D8B3FDC201789AF336BE8 /* Pods_iChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0120F7AB0E1955DD2F5A0F /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 		4DAF3B5825C9A3F800614C49 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4DAF3B6025CA8C7400614C49 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				4DAF3B5A25C9A41C00614C49 /* ChatVC.swift in Sources */,
 				4D0757E325C945350058E1A3 /* AppDelegate.swift in Sources */,
+				4DAF3B6125CA8C7400614C49 /* GradientView.swift in Sources */,
 				4D0757E525C945350058E1A3 /* SceneDelegate.swift in Sources */,
 				4DAF3B4B25C9981100614C49 /* SWRevealViewController.m in Sources */,
 				4DAF3B5E25C9A42B00614C49 /* MenuVC.swift in Sources */,
