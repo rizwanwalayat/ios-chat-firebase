@@ -9,6 +9,7 @@ import UIKit
 
 class MenuVC: UIViewController {
 
+    @IBOutlet weak var loginBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,5 +18,7 @@ class MenuVC: UIViewController {
         
     }
     
-
+    @IBAction func loginBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    }
 }
