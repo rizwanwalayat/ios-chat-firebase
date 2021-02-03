@@ -10,11 +10,12 @@
 		0225F6B19ECA4D54A106F076 /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532D8B3FDC201789AF336BE8 /* Pods_iChat.framework */; };
 		4D0757E325C945350058E1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0757E225C945350058E1A3 /* AppDelegate.swift */; };
 		4D0757E525C945350058E1A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0757E425C945350058E1A3 /* SceneDelegate.swift */; };
-		4D0757E725C945350058E1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0757E625C945350058E1A3 /* ViewController.swift */; };
 		4D0757EA25C945350058E1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0757E825C945350058E1A3 /* Main.storyboard */; };
 		4D0757EC25C945390058E1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0757EB25C945390058E1A3 /* Assets.xcassets */; };
 		4D0757EF25C945390058E1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0757ED25C945390058E1A3 /* LaunchScreen.storyboard */; };
 		4DAF3B4B25C9981100614C49 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B4A25C9981100614C49 /* SWRevealViewController.m */; };
+		4DAF3B5A25C9A41C00614C49 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B5925C9A41C00614C49 /* ChatVC.swift */; };
+		4DAF3B5E25C9A42B00614C49 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B5D25C9A42B00614C49 /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +23,6 @@
 		4D0757DF25C945350058E1A3 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0757E225C945350058E1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D0757E425C945350058E1A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D0757E625C945350058E1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D0757E925C945350058E1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0757EB25C945390058E1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0757EE25C945390058E1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +30,8 @@
 		4DAF3B4925C9981100614C49 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		4DAF3B4A25C9981100614C49 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		4DAF3B4E25C9989D00614C49 /* iChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		4DAF3B5925C9A41C00614C49 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		4DAF3B5D25C9A42B00614C49 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		532D8B3FDC201789AF336BE8 /* Pods_iChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0120F7AB0E1955DD2F5A0F /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,10 +69,12 @@
 		4D0757E125C945350058E1A3 /* iChat */ = {
 			isa = PBXGroup;
 			children = (
+				4DAF3B5725C9A3F300614C49 /* Model */,
+				4DAF3B5825C9A3F800614C49 /* View */,
+				4DAF3B5625C9A3E700614C49 /* Controller */,
 				4DAF3B4825C9971F00614C49 /* Supporting */,
 				4D0757E225C945350058E1A3 /* AppDelegate.swift */,
 				4D0757E425C945350058E1A3 /* SceneDelegate.swift */,
-				4D0757E625C945350058E1A3 /* ViewController.swift */,
 				4D0757E825C945350058E1A3 /* Main.storyboard */,
 				4D0757EB25C945390058E1A3 /* Assets.xcassets */,
 				4D0757ED25C945390058E1A3 /* LaunchScreen.storyboard */,
@@ -87,6 +91,29 @@
 				4DAF3B4A25C9981100614C49 /* SWRevealViewController.m */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		4DAF3B5625C9A3E700614C49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF3B5925C9A41C00614C49 /* ChatVC.swift */,
+				4DAF3B5D25C9A42B00614C49 /* MenuVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DAF3B5725C9A3F300614C49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DAF3B5825C9A3F800614C49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B19854CB3B7C303DCB8AA217 /* Pods */ = {
@@ -221,10 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0757E725C945350058E1A3 /* ViewController.swift in Sources */,
+				4DAF3B5A25C9A41C00614C49 /* ChatVC.swift in Sources */,
 				4D0757E325C945350058E1A3 /* AppDelegate.swift in Sources */,
 				4D0757E525C945350058E1A3 /* SceneDelegate.swift in Sources */,
 				4DAF3B4B25C9981100614C49 /* SWRevealViewController.m in Sources */,
+				4DAF3B5E25C9A42B00614C49 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
