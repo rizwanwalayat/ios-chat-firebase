@@ -16,6 +16,8 @@
 		4D5F636025CACC0E00C92C4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F635F25CACC0E00C92C4F /* Constants.swift */; };
 		4D5F636525CAE43700C92C4F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F636425CAE43700C92C4F /* LoginVC.swift */; };
 		4D5F636825CAE66300C92C4F /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F636725CAE66300C92C4F /* CreateAccountVC.swift */; };
+		4D71E26425D3CD5600DB3C5F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71E26325D3CD5600DB3C5F /* RoundedButton.swift */; };
+		4D90F24B25D2B4760086A010 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90F24A25D2B4760086A010 /* AuthService.swift */; };
 		4DAF3B4B25C9981100614C49 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B4A25C9981100614C49 /* SWRevealViewController.m */; };
 		4DAF3B5A25C9A41C00614C49 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B5925C9A41C00614C49 /* ChatVC.swift */; };
 		4DAF3B5E25C9A42B00614C49 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3B5D25C9A42B00614C49 /* MenuVC.swift */; };
@@ -34,6 +36,8 @@
 		4D5F635F25CACC0E00C92C4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D5F636425CAE43700C92C4F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4D5F636725CAE66300C92C4F /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		4D71E26325D3CD5600DB3C5F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4D90F24A25D2B4760086A010 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		4DAF3B4925C9981100614C49 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		4DAF3B4A25C9981100614C49 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		4DAF3B4E25C9989D00614C49 /* iChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iChat-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		4D0757E125C945350058E1A3 /* iChat */ = {
 			isa = PBXGroup;
 			children = (
+				4D90F24925D2B4570086A010 /* Services */,
 				4D5F635E25CACBF300C92C4F /* Utilities */,
 				4DAF3B5725C9A3F300614C49 /* Model */,
 				4DAF3B5825C9A3F800614C49 /* View */,
@@ -98,6 +103,14 @@
 				4D5F635F25CACC0E00C92C4F /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4D90F24925D2B4570086A010 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D90F24A25D2B4760086A010 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		4DAF3B4825C9971F00614C49 /* Supporting */ = {
@@ -132,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				4DAF3B6025CA8C7400614C49 /* GradientView.swift */,
+				4D71E26325D3CD5600DB3C5F /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,7 +288,9 @@
 				4DAF3B6125CA8C7400614C49 /* GradientView.swift in Sources */,
 				4D0757E525C945350058E1A3 /* SceneDelegate.swift in Sources */,
 				4D5F636825CAE66300C92C4F /* CreateAccountVC.swift in Sources */,
+				4D71E26425D3CD5600DB3C5F /* RoundedButton.swift in Sources */,
 				4DAF3B4B25C9981100614C49 /* SWRevealViewController.m in Sources */,
+				4D90F24B25D2B4760086A010 /* AuthService.swift in Sources */,
 				4DAF3B5E25C9A42B00614C49 /* MenuVC.swift in Sources */,
 				4D5F636025CACC0E00C92C4F /* Constants.swift in Sources */,
 			);

@@ -166,7 +166,7 @@
                                     <action selector="closePressed:" destination="TXP-5h-5ZI" eventType="touchUpInside" id="NoS-OY-h2I"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdu-zw-CLA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdu-zw-CLA" customClass="RoundedButton" customModule="iChat" customModuleProvider="target">
                                 <rect key="frame" x="87" y="411" width="240" height="35"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
@@ -177,6 +177,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="UsK-VD-Nqh">
                                 <rect key="frame" x="77" y="254.5" width="260" height="90.5"/>
@@ -284,6 +289,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="mEL-N3-MKD" eventType="touchUpInside" id="UQH-Wx-89u"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RLZ-LL-1zd">
                                 <rect key="frame" x="77" y="252.5" width="260" height="144"/>
@@ -347,6 +355,7 @@
                                 <state key="normal" title="Choose Avatar"/>
                                 <connections>
                                     <action selector="createAccountBtnPressed:" destination="qaa-dQ-8EU" eventType="touchUpInside" id="NdC-nF-5oN"/>
+                                    <action selector="pickAvatarPressed:" destination="mEL-N3-MKD" eventType="touchUpInside" id="WAg-Ak-x9N"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NMt-On-Wzj">
@@ -362,6 +371,7 @@
                                 <state key="normal" title="Generate background color"/>
                                 <connections>
                                     <action selector="createAccountBtnPressed:" destination="qaa-dQ-8EU" eventType="touchUpInside" id="x4e-kl-pmn"/>
+                                    <action selector="pickBgColorPressed:" destination="mEL-N3-MKD" eventType="touchUpInside" id="1sq-4p-aTf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -386,6 +396,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ebt-F3-Tfi"/>
+                    <connections>
+                        <outlet property="emailTxt" destination="DM6-qL-CRj" id="pgp-PN-FzY"/>
+                        <outlet property="passwordTxt" destination="Trz-wP-BTD" id="LPx-ms-hk5"/>
+                        <outlet property="userImg" destination="NMt-On-Wzj" id="XOE-bF-PBI"/>
+                        <outlet property="usernameTxt" destination="EKQ-In-7Za" id="xMc-Tb-JUb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zgG-lE-xVx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="8er-y6-GVS" userLabel="Exit" sceneMemberID="exit"/>
@@ -448,6 +464,11 @@
             <point key="canvasLocation" x="824.63768115942037" y="546.42857142857144"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Gdu-zw-CLA">
+            <size key="intrinsicContentSize" width="43" height="32"/>
+        </designable>
+    </designables>
     <resources>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
