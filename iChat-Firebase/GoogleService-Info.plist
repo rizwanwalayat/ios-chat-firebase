@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1059517212293-hv6oas17ui7fq8s9tk5cp5994lc5l2li.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1059517212293-hv6oas17ui7fq8s9tk5cp5994lc5l2li</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB49KuTt-OPexDXgAE9aaVvr6030aR8njA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1059517212293</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Phaedra.iChat</string>
+	<key>PROJECT_ID</key>
+	<string>ichat-firebase-ps</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ichat-firebase-ps.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<false/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1059517212293:ios:aff47f190371e74608abec</string>
+</dict>
+</plist>

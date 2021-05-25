@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in MessageService.getAllChannels(completion:):MessageService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Mapper&lt;Channel&gt;().mapArray(JSONObject: response.value)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SocketService.getChatMessage(completion:):SocketService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatVC.keyboardWillShow(_:):ChatVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "keyboardSize.height">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.contentSize.height">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
